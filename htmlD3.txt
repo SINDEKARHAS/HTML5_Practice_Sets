@@ -1,0 +1,32 @@
+Day3
+Date:24/08/2022
+
+W3C:- the software which inspectht ehtml script with help html file html code and htmlurl just pest data into text area select the category and chek the errors 
+link:https://validator.w3.org/#_blank
+
+*comments:
+the part of html script that not a part of execution but helps the deleloper to understant the part code more efficiently.
+"<!--  -->" this is how we put the comment insode the html scripts.
+
+*sementic tags:- 
+the sementic tags is which  
+<article><aside><audio><progress><figcaption><footer><header><hgroup><mark> 
+
+*nonsementic tags:- 
+the non sementic tags is which
+<span><div><body><>
+
+*header:- normaly header is used to navigate on pages.
+*footer:- it contain the quick links to get concern.
+
+
+#Text fomating:
+we have specific tags to formate our text like <mark>  tag used to heighlite the text data
+ <strong> tag to make blode the text data
+<u> tag to underline the data
+
+*list: 
+it is a set of elements which we have the four types for the type of list like a)ordered b) unordered c) grouped
+
+
+

@@ -1,0 +1,33 @@
+Module 1:- [Videos 1 to 10]
+
+@react is an client side js library, which is component based.
+@react used to make interactive webpages that runs smoothly for the best use interface.
+@react use virtual DOM to manipulate the code as for the user without getting permission from the server.
+@With reaact we create the single page application i.e; server sends nly one single page and rest manipulation done by the react.
+
+
+Module 2:- [Videos 11 to 23]
+
+@Let:-  use let as variable if it is realy a variable value. and 
+	use 
+@const:- if u assign it something only one value.
+
+Note:- Use JS Bin google platform  to practise the react
+
+@Arrow Function:-
+
+const myfun = () =>{
+...
+}
+
+@import and exports:-
+@Classes:-
+its are the blueprints of an object 
+class have properties and methods
+class people{
+name='persons'
+
+}
+
+
+

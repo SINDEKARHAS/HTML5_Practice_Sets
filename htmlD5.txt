@@ -1,0 +1,18 @@
+Date:-26/08/2022
+#Day5
+
+:-
+Block level elements:
+the variety of other block level elements available in html
+heading logical fivisional ordered list unordered list etc.
+
+types of attribute:-
+their are four types of it
+standred 
+event base 
+required and 
+Etential
+
+#Tables 
+*tables play an essential role in presenting data
+*A table can enable you to organize complex data in a manner  i.e; simple, logical, easy, etc;

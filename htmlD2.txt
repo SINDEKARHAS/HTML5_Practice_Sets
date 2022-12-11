@@ -1,0 +1,24 @@
+Date:-23/08/2022
+Day@2:
+
+:--
+*<p> content you want to add</p>
+*<style=> attribute used to make webpage more elegent with the use of filling bg color in webpage and many more useg.
+*sementic tags:- include specific attributes details paragraph tables tabluer formats
+*non sementic tags:- anything image tag div tag p tag span tag br tag know as the non sementic tags
+*image tag:- img staands for image <img></img>
+*you can also use image in your web page without downloading the imge just select image copy path from clicking right clicking on it and copy the image path and pest same for the 
+<img src="the path/the image" weidth="200" height="200"/>
+and 
+
+*relative address:- if the image is in different it is imcomplete.
+exmpl: <img src= "./imges/headset.jpg" height="" width=""/>
+*absolute address:- it is complete
+exmpl:- C:/images/photo/fsd.jpg
+
+#image outside the folder:-
+".." represent the previous path 
+<img src=" ../imsge.jpg" height="" width="" > <this is relative address/path>
+*html file reduce the external plugins
+*<,> operators used to enclose the html tags.
+

@@ -1,0 +1,67 @@
+Q)An Introduction to React and Rdux:-
+
+Ans:-
+
+*The react referres to the front-end-development 
+i.e; basic forms, web pages,  single page applications, etc;
+
+* The developers decided to manage front end development with the new javascript library i.e; react which make them easier to design the new front end web apps easily.
+
+*The React is developed by the faacebook in year 2013.
+
+*The react came with the new features like speed , and DOM(Document Object Model) structure which introduced with the javascript.
+
+*Speed:- 
+the mainn aspet of the smooth website surfing is gain by the speed 
+interactive website need to udpate the DOM for the each time change happens for the user search.  
+this process is generally depends on resources and its slow,
+ to overcome this drawback react uses virtual DOM; 
+allowing to update only the parts of the website that have changed. 
+this increases the speed and make user inteaction smooth.
+
+Q)What is JSX ?
+ANS:-  JavaScript Syntax Extension.
+The JSX code passes two arguments a JSX element and container,
+In the JSX the render method displays the provided element in the container
+React DOM uses camelcase property naming convention instead of HTML attribute names
+exmpl:- class become className in JSX.
+
+#Components:-
+The page can split into multiple parts. each of these "parts"
+are a component.
+The components can use another components to generaate ooutput.
+The component approach makes organizing the pages and maintaining the page more convinient 
+also allow to sagregate our content one from another.
+#Types of Components in react 
+A)Functional Components
+B)Class Compoents
+
+B)Functional Components:-
+its a simple javascript function,
+example:-
+function Hello()
+{
+return <h1>
+hello world.
+</h1>;
+}
+
+#Class Components:-
+ The Class Components are typically used when there are more advanced user interactions like forms and animations.
+all class components need to extends the react.components class
+
+
+Q)Props ?
+Ans:-The functional components accept the arguments similer to jvascript function.
+	these arguments are called props, and represent an object.
+The props can be accessed in class components using "this.props."
+
+
+
+
+
+
+
+
+
+

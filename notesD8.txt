@@ -1,0 +1,8 @@
+in your embeded styleshteet you need to write your selectors name ( tag, class, id...) 
+{
+
+property name: value;
+
+ }<== knows as blocks 
+
+if we want to show the all li's in horizontal manner then we use flex

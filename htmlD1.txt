@@ -1,0 +1,34 @@
+Date: 22/08/2022
+#html_Day1
+:- 
+ *to automaticaly get the basic structure of the html script
+ smiply write the "!" and press enter.
+
+*CSS make webpage more interactive, representative, and more beutifuule
+
+*HTML introduce the content of the page with the help of various tags which are predefined.
+
+*xml tag are userdefined
+
+*HTML5: version 5 is currently worldwide for users.
+
+*html is created by the berners lee.
+
+*published in  it has been in development stage since 2014.
+
+*some new tags were introduced in the html5 .
+
+*some versions: 2.0,3.2,4.01,1.0,5.
+
+*how to know which html version we were using:- 
+<!DOCTYPE html> #its always not case sensetive.
+this tag tell us that we are using the html5.
+
+*html code contains tags, elements, attributes, 
+
+*DOM : document object model.
+
+*html>head>meta, link,script,base,style,noscript,title
+
+*html>body>rest,complete,tags
+this is the DOM structure.
