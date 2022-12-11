@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <script>      
+            function func()
+            {
+                        const num = document.querySelectorAll("span");
+        
+                        /*  for of  --  iteratable collection
+                            for in  -- object
+                            general for loop  - */
+                        
+                        for( let v in num )
+                                {                
+                                console.log(v);    
+                                }  
+
+                        for( let v of num )
+                                {                
+                                console.log(v);  
+                                }
+                                num[0].style.backgroundColor="red";
+                        num[1].style.backgroundColor="blue";
+                        num[2].style.backgroundColor="yellow";
+                        num[3].style.backgroundColor="green";
+                        num[3].style.fontFamily="Comic sans ms";
+        }
+
+        function fun1()
+        {
+            const s =document.getElementsByTagName("span");
+            for(let v in s)
+            {
+                console.log(v);
+            }
+        }
+    </script>            
+</head>                   
+<body>                                               
+            <span>Span 1</span><br>
+            <span>Span 2</span><br>
+            <span>Span 3</span><br>
+            <span>Span 4</span><br>
+            <span>Span 5</span><br>
+            <span>Span 6</span><br> 
+            
+            <input type="submit" onclick="func()">
+</body>
+</html>
+
+
+

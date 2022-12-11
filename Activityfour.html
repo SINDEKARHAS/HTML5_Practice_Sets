@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <script>
+            var arr =[0,1,2,3,4,5,6,7,8,9];
+            var arra =new Array(5);
+
+            arra[0]=101;
+            arra[1]=202;
+            arra[3]=303;
+
+            var arr_3 = [...arr,...arra,43,56,33,11,00];
+            for(i of arr_3)
+            {
+                console.log(i);
+
+            }
+            function func(...x)
+            {
+                for(i of x)
+                {
+                    console.log(i);
+                }
+
+            }
+            function insert() {
+            var divTag = document.createElement("div");
+            divTag.id = "dv";
+            divTag.innerHTML = "Add your Content......";
+            divTag.addEventListener('click',listen());
+            document.body.appendChild(divTag);
+                }
+            function remove() 
+                {
+                    var A = document.getElementById('dv');
+                    A.removeEventListener("click");
+                    A.parentNode.removeChild(A);
+                    }
+            function listen()
+                {
+            console.log("Event invoke.....");
+                }
+
+
+                function mouseEvent()
+                {
+                    console.log("Mouse Event.....");
+                }
+
+
+
+            func(1,5,9);
+            func(2,6,8,0);
+            func(1,3,5,7,9,13,15,17);
+
+        </script>
+    </head>
+    <body>
+        <div style="border:2px solid blue; background-color:aquamarine; width:40%"
+        id ="div1">
+    </div>
+    <button onclick ="addevent()">Click</button>
+    <script>
+        function mouseevent(){
+            console.log("Mouse Event");
+            
+        }
+        function addevent()
+        {
+            var n = document.querySelector("adv1");
+            n.addEventListener('mouseenter', mouseevent());
+
+        }
+    </script>
+
+
+    </body>
+</html>

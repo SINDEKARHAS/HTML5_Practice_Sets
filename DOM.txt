@@ -1,0 +1,106 @@
+Q) What is  DOM & it's Properties?
+Ans:-
+
+When you open an html page on browser the html page is  transfered visually on the screen as an output form
+The DOM is known an document object model
+of that page which is an OOM of its logical structure.
+
+I} The DOM  represents a document as a tree structure 
+the html elements 
+
+II} node may have child nodes; nodes on same tree level known as siblings.
+
+III} The structure of html DOM is
+document\<html>\<head>\<title>
+document\<html>\ <body>\<h1>&<a>
+
+IV} All html elements are objects. and as we know every object has properties and methods.
+just like, the documetn object has ethods that allows you to select desired html element.
+
+Events:-
+#onclick:-
+occurs when the user click on an element
+
+#onload:-
+occurs when object has been loaded
+#onunload:-
+occurs once a page has unloaded(for <body>)
+#onmouseover:-
+occurs when the pointer is moved onto an elements, or onto pne of its children.
+#onmouseout:-
+occur when a user moves the moves the mouse pointer out of the element, or out of one of its children.
+#onmousedown:-
+occurs when the user presses a mouse button over an element
+#onmouseup:-
+occurs when a user releases a mouse button over an element
+#onblur:-
+occurs when an element loses focus
+#onfocus:-
+occurs when an element gets focus
+
+
+Q) Types of Prapogation is DOM :-
+Ans:- Their are two types of event prapogation in the html DOM:
+a) Bubbling b)Capturing
+
+The event prapogation allows for the definition of the element order when an event occurs. 
+
+a)bubbling:- in the bubbling the innermost element event handled first then outer elements event handled 
+
+b)capturing:- inthe capturing the outermost element event handled first then inner one. 
+
+
+example :- if we have <p> element inside the <div> element
+then in bubbling the <div> is handled first and in capturing the <p>event is handled first.
+
+
+Q) ECMA Script6 ?
+Ans:-
+
+*ECMA Script is scripting language specification created to standardize javascript.
+
+*It adds new syntax fro writing compex application including classes and modules iterators and for of loops, generators arrow function binary data typed arrays collections reflection and proxies.
+
+*In other word the ECMA is a super scrit of javascript 
+because it introduced the new convention and oop concepts such as classes.
+
+*The ${expression} is a placeholder and can include any expression which will get evaluated and inserted into the template literal.
+
+*java frequently use the for loop for value iteration; however the for....in loop is intended for iterating over the enumerable keys of an object.
+
+*E6 introduced the for...of loop, which create a loop oterating over iterable objects.it introduced new sets like (map set weakmap weakset)
+
+*The ES6 intorduced the new syntax to write the function 
+the new syntax is quite handy you just need a simple function with one argument
+you can skip the typin function and return as well as some parantheses and braces.
+Exm:-const greet =x=>"welcome: + x;
+
+
+*ES6 Objects:-
+javascript variables can be Object data types that contain many values called properties.
+An Object can also have properties that are function definitions called methods for performing actions on the object.
+ES6 introduced the shorthand notations and computed property names that make declaring and using objects easier to understand.
+
+*the new method dose not require the : or function keyword, as in the grow function of the tree object declaration:
+
+*The Object method assign() that allows us to combine multiple sources into one target to create a single new object.
+
+*Object,assign() is also useful for creating a duplicate of an existing object.
+
+*The map object can be used to hold  key/values paris. a key or value in a map can be anything 
+the Syntax newMap([iterable]) create a Map object where iterable is an array or any other iterable object whosr elements are arrays
+
+*An object is similer to map but there are important differences that make using a map
+
+1) The keys can be any type including functions, objects, and any primitive.
+2) You can get the size of a Map.
+3) You can directly iterate over Map.
+4) Performance of the Map is better in scenarios involving frequent addition and removal of key/value pairs.
+
+
+
+
+
+
+
+

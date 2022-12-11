@@ -1,0 +1,65 @@
+<html>
+    <head>
+            <script>
+
+                    function loadItems()
+                        {
+                            for(var i=1 ; i <= localStorage.length ; i++)
+                                {
+                                document.write(localStorage.getItem(i)+"<br>");
+                                }                                              
+                        }
+
+                    function addItem()
+                            {
+                                var k = document.querySelector("#key").value;
+                                var v = document.querySelector("#val").value;
+                                localStorage.setItem(k,v);                                    
+
+                                document.querySelector("#key").value="";
+                                document.querySelector("#val").value="";
+                                                                                                                                                                                                                                                     
+                            }
+
+                    function searchItem()
+                    {
+                        var p = prompt("Enter the key : ");
+                        var v = localStorage.getItem(p);
+                        document.querySelector("#sp1").innerHTML = "Value is : " +v;
+                    }
+
+
+                    const remItem = () => { var p = prompt("Enter the key : ");
+                                            localStorage.removeItem(p);}
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                     
+            </script>
+    </head>
+    <body onload="loadItems()">
+
+                Enter Key:
+                    <input type="text" id="key"/>
+
+                    <br>
+                    <br>
+
+                Enter Value:
+                    <input type="text" id="val" />
+
+                    <br>
+                    <br>
+                
+                    <span id="sp1"> </span>
+
+                    <br>
+                    <br>
+
+                <input type="submit" value="Add Item" onclick="addItem()"/>
+                    &nbsp;&nbsp;
+                <input type="submit" value="Search Item" onclick="searchItem()"/>
+                &nbsp;&nbsp;
+                <input type="submit" value="Remove Item" onclick="remItem()"/>
+                
+    </body>
+
+</html>

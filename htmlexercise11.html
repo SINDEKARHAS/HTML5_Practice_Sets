@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<center>
+<h1 style="background-color:brown">The Submission Form</h1>
+</center>
+</head>
+<body style="background-color:antiquewhite">
+<table>
+    <thead>
+        <h3>Fill The Information : </h3>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </thead>
+</table>
+
+
+    <form>
+    <label for="fname">First Name: </label><br>
+    <input type="text" id="fname" placeholder="Enter the name"><br>
+    <label for="lname">Last Name: </label><br>
+    <input type="text" id="lname" placeholder="Enter the Surname"><br>
+    <label for="Iname">Institution Name: </label><br>
+    <input type="text" id="Iname" placeholder="Enter the Institution"><br><br><hr>
+    <label for="Ayear">Academis Year Start: </label><br>
+    <input type="date" id="Eyear"><br><br>
+    <label for="Ayear">Academis Year End: </label><br>
+    <input type="date" id="Eyear"><br><br>
+    <label for="Anum">Adhar Number: </label><br>
+    <input pattern="\d*" title="Numbers only, please." placeholder="Adhar Number"><br><br>
+    <label for="Mnum">Mobile Number:</label><br>
+    <input pattern="\d*" title="Numbers only, please." id="Eyear" placeholder="Mobile Number">
+    <br><hr>
+    <br><br>
+    <select name="selMode">
+        <option selected="selected" value=""> Select learning mode </option>
+        <option value="Offline">Persuing Education </option>
+        <option value="Online"> Final Year </option>
+        <option value="Hybrid"> Completed Graduation </option>
+    </select>
+    
+    
+        
+
+    
+    
+    <h3>Specialisation : </h3>
+    
+    <input type="radio" id="p1">
+    <label for="Academics">Science</label>
+        <input type="radio" id="p1">
+        <label for="Agriculture">Agriculture</label>
+        <input type="radio" id="p1">
+        <label for="Industries">Industries</label>
+
+        <input type="radio" id="p1">
+        <label for="Academics">Commerce</label>
+        <input type="radio" id="p1">
+        <label for="Academics">Academics</label>
+        <input type="radio" id="p1">
+        <label for="Manegment">Manegment</label>
+        <br><hr>
+        <br>
+        <form method="post" enctype="multipart/form-data" action="upload.php">
+            <input type="file" name="pic" /><br><br>
+            <input type="submit" value="Upload Resume"/>
+            </form>
+            <hr>
+            <br>
+            <form>
+                <input type="checkbox" id="Terms And Conditions">
+                <label for="Terms And Constions">I Accept Terms And Conditions.</label><br>
+        
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Omnis illum laborum harum saepe nemo<br> sunt sint eaque quisquam asperiores totam.</p><br>
+        <center>
+            <input style="background-color:brown" type="Submit" id="Submit" name="Submit">
+            </center>
+    
+    
+    </form>
+</body>
+</html>

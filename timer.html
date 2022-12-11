@@ -1,0 +1,45 @@
+<html>
+    <head>
+            <script>
+
+                        function show()
+                            {
+                                //console.log("Hello");
+                                document.querySelector("#sp1").innerHTML = "Hello JavaScript !! ";
+                            }
+
+                        setTimeout(show,5000);  
+                        
+                        
+
+                        function showtimer()
+                            {
+                                var D = new Date();
+                                var hr = D.getHours();
+                                var min = D.getMinutes();
+                                var sec = D.getSeconds();
+                                var millisec = D.getMilliseconds();
+                                
+                                var str = hr +" : "+ min +" : "+sec;  
+                                document.querySelector("#sp2").innerHTML = str;                            
+                            }    
+
+                            setInterval(showtimer,1000);
+
+            </script>
+    </head>
+    <body>
+
+            <span id="sp1">    </span>
+
+            <br>
+            <br>
+
+            <div style="border:1px solid blue;">
+                <span id="sp2">    </span>
+
+            </div>
+
+    </body>
+
+</html>

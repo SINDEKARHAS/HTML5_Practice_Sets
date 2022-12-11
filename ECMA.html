@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <script>
+            
+
+/*var x=5; use while you have mini variables.
+let z =x+y; use let when you have bunch of variables.
+Their are 49 keywords in javascript. */
+
+            /* let is a part of ecma script */
+            var a;// integer value
+            a = 21;
+            var d;//decimal value
+            d = 20.56;
+            var s ="hemant";//String value
+
+            var t =true;
+
+            console.log(t);
+            console.log(a);
+            console.log(d);
+            console.log(s);
+            console.error("this is an error");
+            alert("Hello");
+
+        
+
+        </script>
+
+        </head>
+        <body>
+            <form>
+                <span id="sp1"> User :  </span>
+                <input type="text" name="user" id="user"/>
+                <br><br>
+                <input type="submit" id="btn1" value="submit" onclick='alert("The value canot be changed")'/>
+            <br><br>
+            <input type="submit" id="btn1" value="Consoleoutput" onclick= "console.error('console based error')">
+                <br><br>
+                <button id="btn1"  onclick="document.getElementById('sp1').innerHTML='<h1>Welcome User !</h1>'">Change span</button>
+
+            </form>
+
+            <script>
+                
+                document.getElementById('sp1').innerHTML='<h1>Welcome User !</h1>';
+                document.getElementById('user').placeholder="Welcome User";
+                
+            </script>
+
+        </body>
+</html>

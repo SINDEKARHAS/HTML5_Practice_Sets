@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <script>
+            function showdata()
+    {
+        function student(){}     
+        student.prototype.name = document.getElementById('nm').value;
+        student.prototype.coursename = document.getElementById('crnm').value;
+        student.prototype.age = document.getElementById('ag').value;
+            
+        var obj = new student('Neha Tondon');
+                
+        document.getElementById("dv1").innerHTML = obj.name;
+        document.getElementById("dv2").innerHTML = obj.coursename;
+        document.getElementById("dv3").innerHTML = obj.age;
+    }
+
+
+
+
+
+
+        </script>
+    </head>
+    <body>
+
+        Name : <br><input type="text" id="nm"/><br>
+        Course Name : <br><input type="text" id="crnm" /><br>
+        Age :<br> <input type="text" id="ag" /><br>
+        <input type="submit" value="Submit" onclick="showdata()"/>
+    
+        <hr>
+    
+        <div id="dv1"></div>
+        <div id="dv2"></div>
+        <div id="dv3"></div>
+    
+    </body>
+    
+    
+</html>
